@@ -16,9 +16,7 @@ class WebController extends Controller
 {
     public function home()
     {
-        // $partners = Partner::orderBy('id','DESC')->get();
         $partners = Partner::all();
-        // var_dump($partners);
         $seo = $this->seo->render(
             "Página Home - Web App Framework Laravel v7.0.3",
             "Este site consiste em aprimorar o desenvolvimento com o Framework Laravel v7.0.3",
@@ -113,7 +111,6 @@ class WebController extends Controller
             url('/'),
             asset('\Illuminate\Support\Facades\Storage::url(\App\Support\Cropper::thumb($post->cover, 1200, 1200))')
         );
-        // echo "Page contact";
         return view('front.message_confirm_mail', [
             'head' => $seo
 
