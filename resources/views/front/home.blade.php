@@ -4,7 +4,7 @@
 
 <div class="jumbotron d-flex align-items-center">
       <div class="container text-center">
-        <h1 class="display-1 mb-4">R<br>G<br>M<br>*</h1>
+        <h2 class="display-1 mb-4">RGM</h2>
       </div>
       <div class="rectangle-1"></div>
       <div class="rectangle-2"></div>
