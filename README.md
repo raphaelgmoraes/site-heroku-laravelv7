@@ -7,6 +7,34 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
 
+Link do projeto: http://roxy-laravel.herokuapp.com/
+
+Website Template Free para desenvolvimento com Laravel Framework versão 7.0.3
+ (!importante) >> O banco de dados está disponível para testarem
+ Parametrização :: Arquivo .env adicionar/Substituir:
+
+FILESYSTEM_DRIVER=public
+
+- Servidor de mail de sua preferencia com seus parâmetros, assim o recebimento de e-mail irá funcionar
+- Adicione abaixo de: MAIL_ENCRYPTION=null 
+   Isto:
+   MAIL_FROM_ADDRESS="raphael2k2moraes@gmail.com"
+   MAIL_FROM_NAME="Raphael G Moraes - Developer"
+   Senão estiver!
+
+- No final adicione esses itens e altere com seus valores:
+
+- CLIENT_DATA_CITY = "RJ";
+- CLIENT_DATA_TELEPHONE="Seu número";
+- CLIENT_DATA_EMAIL="seu e-mail";
+- CLIENT_SOCIAL_GITHUB_PAGE="seu link social github";
+- CLIENT_DATA_LINK_GITHUB="seu link github, caso tenha site estático";
+- CLIENT_SOCIAL_LINKEDIN_PAGE="seu link social Linkedin";
+- CLIENT_DATA_ADDRESS="seu endereço";
+- CLIENT_DATA_NUMBER="numero do seu endereço";
+- CLIENT_DATA_COMPLEMENT="casa/apto ...etc";
+
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
